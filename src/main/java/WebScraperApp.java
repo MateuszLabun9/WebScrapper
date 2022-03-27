@@ -1,7 +1,4 @@
 import Controler.OfferScrapingController;
-import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-
 
 import java.io.IOException;
 
@@ -20,10 +17,6 @@ public class WebScraperApp {
         } catch (Exception e) {
             System.out.println("Error, operation failed");
         }
-
-        //JUnitCore.main("src/main/java/WebScraperApp.java");
-        //JUnitCore jUnitCore = new JUnitCore();
-       // Result result =  jUnitCore.run(WebScrapperTest.class);
 
     }
 }

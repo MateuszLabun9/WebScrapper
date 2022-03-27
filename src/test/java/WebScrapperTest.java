@@ -10,6 +10,7 @@ public class WebScrapperTest {
     OfferScrapingController offerScrapingController = new OfferScrapingController();
 
 
+    //Parametrized test that evaluates URL
     @ParameterizedTest
     @ValueSource(strings = {"https://wltest.dns-systems.net/", "https://wltest.dns-systems/"})
     public void testUrl(String URL) {
@@ -20,6 +21,7 @@ public class WebScrapperTest {
         }
     }
 
+    //Test that rvaluates result of generated JSON
     @Test
     public void testResultJSON() {
         try {

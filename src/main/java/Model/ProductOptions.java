@@ -59,7 +59,7 @@ public class ProductOptions {
         this.annualPrice = annualPrice;
     }
 
-    public JSONObject getJSONObject() {
+    public JSONObject getJSONObject() { //Method that creates JSON object based on ProductOptions
         JSONObject object = new JSONObject();
         try {
             object.put("option title", title);
