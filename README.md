@@ -1,6 +1,6 @@
 # WebScrapper
 
-To run this project download WebScrapperTest.jar file, result of program will be saved in result.json file. 
+To run this project download project, go to out/artifacts/WebScrapper_jar2, result of program will be saved in result.json file. 
 
 To run in cmd: java -jar WebScrapperTest.jar
 
